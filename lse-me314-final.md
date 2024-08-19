@@ -1,6 +1,10 @@
 ME314 2024 Exam
 ================
 
+``` r
+usethis::use_git_config(user.name="angelinewang", user.email="02angelinewang@gmail.com")
+```
+
 ## Instructions
 
 - There are two questions, both worth 50 points each. You should answer
@@ -389,7 +393,7 @@ importance_matrix <- xgb.importance(model = xgb_model)
 xgb.plot.importance(importance_matrix)
 ```
 
-![](lse-me314-final_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](lse-me314-final_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 Variable importance plot highlights the most influencial variables in
 predicting the severity of cycling accidents. This information is
 essential for policymakers and urban planners to prioritise
